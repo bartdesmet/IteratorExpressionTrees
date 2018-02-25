@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27309.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorExpressionTrees", "IteratorExpressionTrees\IteratorExpressionTrees.csproj", "{4AD71DF8-DAA9-4AA5-B1BC-60077F5C4F33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AD71DF8-DAA9-4AA5-B1BC-60077F5C4F33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AD71DF8-DAA9-4AA5-B1BC-60077F5C4F33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AD71DF8-DAA9-4AA5-B1BC-60077F5C4F33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AD71DF8-DAA9-4AA5-B1BC-60077F5C4F33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BCE044A-25A6-421E-BE71-049F40515B61}
+	EndGlobalSection
+EndGlobal

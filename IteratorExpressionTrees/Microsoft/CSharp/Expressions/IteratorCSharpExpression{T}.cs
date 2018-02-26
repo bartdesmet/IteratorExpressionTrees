@@ -16,6 +16,8 @@ namespace Microsoft.CSharp.Expressions
 
         public override Type Type => typeof(TDelegate);
 
+        public TDelegate Compile() => Reduce().Compile();
+
         public new Expression<TDelegate> Reduce()
         {
             var originalParameters = Parameters;

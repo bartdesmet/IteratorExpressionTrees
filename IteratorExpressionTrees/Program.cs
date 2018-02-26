@@ -68,7 +68,7 @@ namespace IteratorExpressionTrees
                 */
                 );
 
-            IIterable<int> iterator = expr.Reduce().Compile()(5, 10);
+            IIterable<int> iterator = expr.Compile()(5, 10);
 
             foreach (var y in iterator)
             {

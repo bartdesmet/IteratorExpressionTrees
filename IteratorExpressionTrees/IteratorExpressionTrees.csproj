@@ -21,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>7.2</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -30,6 +31,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>7.2</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -42,8 +44,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Microsoft\CSharp\Expressions\CSharpExpression.cs" />
+    <Compile Include="Microsoft\CSharp\Expressions\CSharpExpressionVisitor.cs" />
+    <Compile Include="System\Collections\Generic\IIterable.cs" />
+    <Compile Include="System\Collections\Generic\IIterator.cs" />
+    <Compile Include="System\Runtime\CompilerServices\IterableBuilder.cs" />
+    <Compile Include="System\Runtime\CompilerServices\IterableBuilderTypeAttribute.cs" />
+    <Compile Include="Microsoft\CSharp\Expressions\IteratorCSharpExpression.cs" />
+    <Compile Include="Microsoft\CSharp\Expressions\IteratorCSharpExpression{T}.cs" />
+    <Compile Include="Microsoft\CSharp\Expressions\IteratorInfo.cs" />
+    <Compile Include="System\Collections\Generic\KeyValuePairExtensions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Microsoft\CSharp\Expressions\YieldBreakCSharpExpression.cs" />
+    <Compile Include="Microsoft\CSharp\Expressions\YieldReturnCSharpExpression.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

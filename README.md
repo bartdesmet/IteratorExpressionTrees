@@ -43,7 +43,7 @@ var expr =
         count
     );
 
-IIterable<int> iterator = expr.Reduce().Compile()(5, 10);
+IIterable<int> iterator = expr.Compile()(5, 10);
 
 foreach (var x in iterator)
 {

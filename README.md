@@ -55,6 +55,6 @@ foreach (var x in iterator)
 
 The goals of this project are:
 
-* Extend the C# expression tree extensions to support iterators. Hopefully we can get iterator lambda bodies at some point.
+* Extend the C# expression tree extensions to support iterators. Hopefully we can get iterator lambdas at some point.
 * Play with implementation techniques for async iterators and bi-directional iterators.
 * Experiment with operator fusion, a technique where iterators get inlined, allowing for runtime LINQ query optimization.
